@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.main-header-block{
+  position: fixed;
+  background-color: #fff;
+  
+}
 
 .App-logo {
   height: 40vmin;
