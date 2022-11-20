@@ -1,0 +1,38 @@
+.mission-vision-box {
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)),
+    url(https://img.freepik.com/free-vector/illustration-social-media-concept_53876-17828.jpg)
+      no-repeat center;
+  background-attachment: fixed;
+}
+.content-align-to-center {
+  /* background-color: #282c34; */
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  /* color: white; */
+}
+.content-align-to-center h1 {
+  text-align: justify;
+  font-size: calc(15px + 2vmin);
+}
+.content-align-to-center p {
+  text-align: justify;
+}
+
+@media only screen and (max-width: 578px) {
+  .content-align-to-center {
+    min-height: 200px;
+  }
+  .img-text-component {
+    width: 200px !important;
+    height: 200px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20% !important;
+  }
+}
