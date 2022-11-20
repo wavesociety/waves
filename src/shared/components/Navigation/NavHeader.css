@@ -23,6 +23,7 @@ header {
   -webkit-text-fill-color: transparent;
   background-size: 100% auto;
   text-align: center;
+  text-transform: capitalize;
 
   /* background: linear-gradient(to right, #fff 20%, #ff0 40%, #ff0 60%, #fff 80%); */
   background-size: 200% auto;
@@ -50,23 +51,23 @@ header {
 
 #loading {
   animation: rotation 2s infinite linear;
-  -webkit-animation: rotation 2s infinite linear;
+  -webkit-animation: rotation infinite 10s linear;
 }
 
 @keyframes rotation {
   from {
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotateY(-359deg);
+    -webkit-transform: rotate(-359deg);
   }
 }
 
 @-webkit-keyframes rotation {
   from {
-    -webkit-transform: rotateY(0deg);
+    -webkit-transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotateY(-359deg);
+    -webkit-transform: rotate(-359deg);
   }
 }

@@ -1,0 +1,23 @@
+.NotFound-box {
+  text-align: center;
+}
+
+.NotFound-box-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.NotFound-box-header {
+  /* background-color: #282c34; */
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.NotFound-box-link {
+  color: white;
+}

@@ -17,21 +17,6 @@ const NavHeader = () => {
   return (
     <header className="bg-light">
       <SocialHeader />
-      {/* <div className="py-2 container-fluid d-flex flex-wrap justify-content-center">
-        <a
-          href="/"
-          className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none"
-        >
-          <img
-            className="bi me-2"
-            width="40"
-            height="32"
-            src={logo}
-            alt="Wisdom Awakening Value Education Society"
-          />
-          <span className="fs-4">Wave Society</span>
-        </a>
-      </div> */}
       <div id="logo">
         <h1>
           <a className="navbar-brand logo-name" href="/">
@@ -57,8 +42,8 @@ const NavHeader = () => {
           <input type="checkbox" id="drop" />
           <ul className="menu mt-2 border-radius-class">
             <li
-              className={handleActiveClass("")}
-              onClick={() => handleActiveTab("")}
+              className={handleActiveClass("home")}
+              onClick={() => handleActiveTab("home")}
             >
               <a href="/">
                 <span className="fad fa-home" aria-hidden="true" />
@@ -66,28 +51,28 @@ const NavHeader = () => {
               </a>
             </li>
             <li
-              className={handleActiveClass("")}
-              onClick={() => handleActiveTab("")}
+              className={handleActiveClass("courses")}
+              onClick={() => handleActiveTab("courses")}
             >
-              <a href="/">
+              <a href="/courses">
                 <span className="fad fa-graduation-cap" aria-hidden="true" />
-                &nbsp;Cources
+                &nbsp;Courses
               </a>
             </li>
             <li
-              className={handleActiveClass("")}
-              onClick={() => handleActiveTab("")}
+              className={handleActiveClass("events")}
+              onClick={() => handleActiveTab("events")}
             >
-              <a href="/">
+              <a href="/events">
                 <span className="fad fa-calendar-check" aria-hidden="true" />
                 &nbsp;Events
               </a>
             </li>
             <li
-              className={handleActiveClass("")}
-              onClick={() => handleActiveTab("")}
+              className={handleActiveClass("contact-us")}
+              onClick={() => handleActiveTab("contact-us")}
             >
-              <a href="/">
+              <a href="/contact-us">
                 <span className="fad fa-address-book" aria-hidden="true" />
                 &nbsp;Contact Us
               </a>

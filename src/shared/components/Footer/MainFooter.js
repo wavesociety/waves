@@ -1,7 +1,10 @@
 import React from "react";
 import logo from "./../../img/wave_society_logo.png";
+import contactData from "../../../imports/data/contact.json";
 
 const MainFooter = () => {
+  const { phoneNoOne, waveEmail, facebook, instagram, twitter } =
+    contactData[0];
   return (
     <div className="container-fluid bg-black">
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3">
@@ -25,13 +28,29 @@ const MainFooter = () => {
 
         <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li className="ms-3">
-            <i className="fab fa-instagram text-danger"></i>
+            <a href={`tel:${phoneNoOne}`} className="text-dark">
+              <i className="fad fa-phone-plus text-warning"></i>
+            </a>
           </li>
           <li className="ms-3">
-            <i className="fab fa-facebook text-primary"></i>
+            <a href={`mailto:${waveEmail}`} className="text-dark">
+              <i className="fad fa-envelope text-warning"></i>
+            </a>
           </li>
           <li className="ms-3">
-            <i className="fab fa-twitter text-info"></i>
+            <a href={instagram} target="_blank" rel="noreferrer">
+              <i className="fab fa-instagram text-danger"></i>
+            </a>
+          </li>
+          <li className="ms-3">
+            <a href={facebook} target="_blank" rel="noreferrer">
+              <i className="fab fa-facebook text-primary"></i>
+            </a>
+          </li>
+          <li className="ms-3">
+            <a href={twitter} target="_blank" rel="noreferrer">
+              <i className="fab fa-twitter text-info"></i>
+            </a>
           </li>
         </ul>
       </footer>

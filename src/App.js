@@ -9,22 +9,35 @@ import {
   Objectives,
   Testimonials,
   StickySideBar,
+  NotFound,
 } from "./imports/App/components";
 import "./shared/css/style.css";
 const App = () => {
-  return (
-    <>
-      <StickySideBar whatsapp="9953115801" />
-      <MainNavigation />
-      <MainCarousel />
-      <AboutUs />
-      <MainCarouselSecond />
-      <Objectives />
-      <MissionVision />
-      <Testimonials />
-      <MainFooter />
-    </>
-  );
+  let path = window.location.pathname;
+  if (path !== "/") {
+    return (
+      <>
+        <StickySideBar whatsapp="9953115801" />
+        <MainNavigation />
+        <NotFound />
+        <MainFooter />
+      </>
+    );
+  } else {
+    return (
+      <>
+        <StickySideBar whatsapp="9953115801" />
+        <MainNavigation />
+        <MainCarousel />
+        <AboutUs />
+        <MainCarouselSecond />
+        <Objectives />
+        <MissionVision />
+        <Testimonials />
+        <MainFooter />
+      </>
+    );
+  }
 };
 
 export default App;

@@ -3,10 +3,6 @@ import { MainSection } from "../imports/App/components";
 const AboutUs = () => {
   return (
     <MainSection heading="About Us">
-      WAVE SOCIETY, officially launched by __ on "DATE" at "PLACE"*, Exclusively
-      it's for the purpose of empowering the youth of India on the matter of
-      human values and social well-being for whole society. <br /> <br />
-      and as our hounarable prime minister says <br /> <br />
       "Our nation is filled with tremendous energy of the youth. Whatever future
       we desire of, we must keep the youth at the centre. If we do this, we can
       surge ahead at an unmatchable pace!" Narendra Modi <br /> <br />

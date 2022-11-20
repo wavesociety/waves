@@ -1,11 +1,14 @@
 import React from "react";
+import contactData from "../../../imports/data/contact.json";
 
 const SocialHeader = () => {
-  const phoneNoOne = 987654321;
-  const waveEmail = "wavesociety.info@gmail.com";
-  const facebook = "https://www.facebook.com/";
-  const instagram = "https://www.facebook.com/";
-  const twitter = "https://www.facebook.com/";
+  const { phoneNoOne, waveEmail, facebook, instagram, twitter } =
+    contactData[0];
+  // const phoneNoOne = 9953115801;
+  // const waveEmail = "wavesociety.info@gmail.com";
+  // const facebook = "https://www.facebook.com/";
+  // const instagram = "https://www.facebook.com/";
+  // const twitter = "https://www.facebook.com/";
   return (
     <>
       <nav className="navbar navbar-light bg-light">

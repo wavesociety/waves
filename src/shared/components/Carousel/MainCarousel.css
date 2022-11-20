@@ -45,7 +45,7 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 934px) {
+@media only screen and (max-width: 991px) {
   .carousel-box {
     outline: 0;
     width: 93% !important;
@@ -54,5 +54,10 @@
 
   .carousel-box .carousel.carousel-slider .control-arrow {
     display: none !important;
+  }
+  .carousel-box .carousel .slide img {
+    width: 100% !important;
+    height: 400px;
+    margin-bottom: 10px;
   }
 }

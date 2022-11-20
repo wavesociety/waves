@@ -9,6 +9,7 @@ import Objectives from "../../pages/Objectives";
 import Testimonials from "../../pages/Testimonials";
 import StickySideBar from "./../../shared/components/UIElements/StickySideBar";
 import Cards from "../../shared/components/UIElements/Cards";
+import NotFound from "../../shared/components/UIElements/NotFound";
 
 export {
   MainFooter,
@@ -22,4 +23,5 @@ export {
   Testimonials,
   StickySideBar,
   Cards,
+  NotFound,
 };
