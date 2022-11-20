@@ -9,7 +9,6 @@ import {
   Objectives,
   Testimonials,
   StickySideBar,
-  Cards,
 } from "./imports/App/components";
 import "./shared/css/style.css";
 const App = () => {
@@ -23,7 +22,6 @@ const App = () => {
       <Objectives />
       <MissionVision />
       <Testimonials />
-      {/* <Cards /> */}
       <MainFooter />
     </>
   );

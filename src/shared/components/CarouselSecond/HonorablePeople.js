@@ -4,7 +4,7 @@ const HonorablePeople = (props) => {
   return (
     <div className="row honor-person-row">
       <div className="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-        <img src={props.url} />
+        <img src={props.url} alt={props.name} />
       </div>
       <div className="col-lg-9 col-md-9 col-sm-9 col-xs-12">
         <p className="honor-person-quote">❝&nbsp;{props.quote}&nbsp;❞</p>

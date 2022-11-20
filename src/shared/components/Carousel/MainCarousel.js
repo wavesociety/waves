@@ -20,15 +20,15 @@ const MainCarousel = () => {
           interval={2100}
         >
           <div>
-            <img src={carouselOne} />
+            <img src={carouselOne} alt="Wave Society Banner 01" />
             {/* <p className="legend">Legend 1</p> */}
           </div>
           <div>
-            <img src={carouselTwo} />
+            <img src={carouselTwo} alt="Wave Society Banner 02" />
             {/* <p className="legend">Legend 2</p> */}
           </div>
           <div>
-            <img src={carouselThree} />
+            <img src={carouselThree} alt="Wave Society Banner 03" />
             {/* <p className="legend">Legend 3</p> */}
           </div>
         </Carousel>
