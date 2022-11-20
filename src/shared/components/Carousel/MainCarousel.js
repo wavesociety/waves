@@ -5,7 +5,7 @@ import "./MainCarousel.css";
 const MainCarousel = () => {
   const carouselOne =
     "https://img.freepik.com/premium-vector/teamwork-word-cloud-template-business-concept-vector-background_616200-1185.jpg?w=1060";
-  const carouselTwo = "http://ethiccraft.org/assets/img/home-slider/quate.jpg";
+  const carouselTwo = "/img/mahatama gandhi.jpeg";
   const carouselThree =
     "https://img.freepik.com/free-vector/illustration-education-concept_53876-20544.jpg";
   return (
